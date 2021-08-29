@@ -1,0 +1,31 @@
+aside {
+    display: none;
+    text-decoration: none;
+    max-width: 450px;
+    margin: auto;
+}
+
+@media (max-width: 992px) {
+    nav {
+        display: none;
+    }
+
+    aside {
+        display: block;
+    }
+}
+
+
+
+.sidenav {
+    width: 100%;
+
+    position: fixed;
+    z-index: 1;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    transition: display 0.5s,
+        opacity 0.5s linear;
+}
