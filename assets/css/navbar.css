@@ -1,6 +1,8 @@
 * {
+    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 a {
     text-decoration: none;
@@ -8,14 +10,21 @@ a {
     color: rgb(172, 172, 172);
 }
 
-
 ul {
     list-style-type: none;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #fff;
+}
+
 nav {
     margin: auto;
-    max-width: 1080px;
+    max-width: 1280px;
+    width: 90%;
     z-index: 100;
 }
 
@@ -23,13 +32,15 @@ nav .logoSidebar {
     padding: 10px;
 }
 
+.nav img {
+    padding: 10px;
+}
 
 .nav {
     display: flex;
     justify-content: space-between;
     margin: auto;
 }
-
 
 .logoSidebar {
     display: none;
@@ -62,9 +73,10 @@ nav .logoSidebar {
     color: #000;
 }
 
-@media (max-width: 576px) {
-    * {
-        margin: 0;
+@media (max-width: 768px) {
+
+    nav {
+        width: auto;
     }
 
     .nav {
@@ -98,6 +110,7 @@ nav .logoSidebar {
     .nav img {
         margin-left: auto;
         margin-right: auto;
+        padding: 10px;
     }
 
     .active {
@@ -119,15 +132,12 @@ nav .logoSidebar {
     }
 }
 
-
-
-
 aside {
     display: none;
     text-decoration: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     aside {
         display: block;
         position: absolute;
@@ -135,5 +145,7 @@ aside {
         right: 0;
         margin: 10px;
         z-index: 999;
+        align-items: center;
     }
+
 }
