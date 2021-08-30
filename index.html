@@ -8,59 +8,58 @@
     <title>Kamengski</title>
 
     <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <img src="assets/img/logo.png" alt="" width="60">
-            <ul>
-                <li>
-                    <a class="active" href="">HOME</a>
-                </li>
-                <li>
-                    <a href="">ABOUT US</a>
-                </li>
-                <li>
-                    <a href="">CONTACT US</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="">ABOUT DEVELOPER</a>
-                </li>
-            </ul>
-        </nav>
-
-        <aside>
-            <div id="sidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
+            <img class="logoSidebar" src="assets/img/logo.png" alt="" width="60">
+            <div class="nav" id="nav">
+                <img class="logoNavbar" src="assets/img/logo.png" alt="" width="60">
+                <img class="logoSidebar" src="assets/img/logo-2.png" alt="" width="100">
+                <ul>
+                    <li>
+                        <a class="active" href="">HOME</a>
+                    </li>
+                    <li>
+                        <a href="">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="">CONTACT US</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="" href="">ABOUT DEVELOPER</a>
+                    </li>
+                </ul>
             </div>
-            <!-- <ul>
-                <li>
-                    <a href="">HOME</a>
-                </li>
-                <li>
-                    <a href="">ABOUT US</a>
-                </li>
-                <li>
-                    <a href="">CONTACT US</a>
-                </li>
-            </ul> -->
 
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        </aside>
+            <aside>
+                <span id="navButtonOpen" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <span id="navButtonClose" style="font-size:30px;cursor:pointer; color: #fff; display: none;"
+                    onclick="closeNav()">&#10005;</span>
+            </aside>
+        </nav>
     </header>
 
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span>
+                    New Arrival
+                </span>
+                <h1>
+                    Shirt Collections
+                </h1>
+            </div>
+        </div>
+    </section>
 
 
 
-    <script src="assets/js/sidebar.js"></script>
+    <script src="assets/js/navbar.js"></script>
 </body>
 
 </html>
