@@ -51,10 +51,6 @@
     #hero .hero-content h1 {
         font-size: 36pt;
     }
-
-    #hero .hero-content button {
-        width: 100%;
-    }
 }
 
 /* @media (max-width: 1024px) {

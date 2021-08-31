@@ -1,0 +1,38 @@
+#arrival {
+    margin-top: 80px;
+    width: 100%;
+}
+
+#arrival .row {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+#arrival .column {
+    flex-grow: 1;
+    margin: 15px;
+    cursor: pointer;
+}
+
+/* #arrival .column img:hover {
+    transform: scale(1.1);
+    transition: 0.125s;
+} */
+
+#arrival h1 {
+    font-size: 28pt;
+    font-weight: 800;
+    /* padding: 0px 0px 10px; */
+}
+
+@media (max-width: 768px) {
+    #arrival {
+        margin-top: 30px;
+    }
+
+    #arrival .row {
+        flex-direction: column;
+    }
+}
