@@ -1,0 +1,50 @@
+#category {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#category .row {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+#category .column {
+    flex-grow: 1;
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+#category .column button {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    background-color: rgb(240, 240, 240);
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    bottom: 10%;
+}
+
+#category .column button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+    #category {
+        margin-top: 30px;
+    }
+
+    #category .row {
+        flex-direction: column;
+    }
+
+    #category .column button {
+        width: 140px;
+    }
+}

@@ -57,6 +57,7 @@
 
     #about .column {
         width: 100%;
+        padding-right: 0px;
     }
 
     #about .column-2 {
