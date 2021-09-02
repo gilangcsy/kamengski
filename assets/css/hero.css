@@ -4,7 +4,7 @@
 
 }
 
-.container {
+#hero .container {
     margin: auto;
     /* max-width: 1280px; */
     background: url('../img/hero1.jpeg') no-repeat;

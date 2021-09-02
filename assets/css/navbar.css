@@ -118,13 +118,13 @@ nav .logoSidebar {
     }
 }
 
-aside {
+#sidebar {
     display: none;
     text-decoration: none;
 }
 
 @media (max-width: 768px) {
-    aside {
+    #sidebar {
         display: block;
         position: absolute;
         top: 0;

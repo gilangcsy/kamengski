@@ -14,10 +14,15 @@
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/category.css">
     <link rel="stylesheet" href="assets/css/arrival.css">
+    <link rel="stylesheet" href="assets/css/popular.css">
+    <link rel="stylesheet" href="assets/css/store.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+
+    <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav>
             <img class="logoSidebar" src="assets/img/logo.png" alt="" width="60">
             <div class="nav" id="nav">
@@ -25,23 +30,26 @@
                 <img class="logoSidebar" src="assets/img/logo-2.png" alt="" width="100">
                 <ul>
                     <li>
-                        <a class="active" href="">HOME</a>
+                        <a class="active" href="#hero">BERANDA</a>
                     </li>
                     <li>
-                        <a href="">ABOUT US</a>
+                        <a href="#arrival">PRODUK</a>
                     </li>
                     <li>
-                        <a href="">CONTACT US</a>
+                        <a href="#popular">KOLABORASI</a>
+                    </li>
+                    <li>
+                        <a href="#about">TENTANG KAMENGSKI</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a class="" href="">ABOUT DEVELOPER</a>
+                        <a class="" href="#profile">TENTANG DEVELOPER</a>
                     </li>
                 </ul>
             </div>
 
-            <aside>
+            <aside id="sidebar">
                 <span id="navButtonOpen" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
                 <span id="navButtonClose" style="font-size:30px;cursor:pointer; color: #fff; display: none;"
                     onclick="closeNav()">&#10005;</span>
@@ -53,10 +61,10 @@
             <div class="container">
                 <div class="hero-content">
                     <span>
-                        NEW ARRIVAL
+                        PRODUK TERBARU
                     </span>
                     <h1>
-                        T-Shirt Collections
+                        Koleksi T-Shirt
                     </h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempora aliquam possimus soluta
@@ -91,19 +99,19 @@
                 <div class="column">
                     <img src="assets/img/category-4.jpg" width="100%" alt="">
                     <button>
-                        SHIRT
+                        BAJU
                     </button>
                 </div>
                 <div class="column">
                     <img src="assets/img/category-1.jpg" width="100%" alt="">
                     <button>
-                        CAP
+                        TOPI
                     </button>
                 </div>
                 <div class="column">
                     <img src="assets/img/category-3.jpg" width="100%" alt="">
                     <button>
-                        BAG
+                        TAS
                     </button>
                 </div>
             </div>
@@ -113,30 +121,48 @@
             <div class="row">
                 <div class="column">
                     <h1>
-                        2021 NEW ARRIVALS
+                        PRODUK TERBARU 2021
                     </h1>
                 </div>
             </div>
             <div class="row">
                 <div class="column">
                     <img src="assets/img/product-1.jpg" width="100%" alt="">
-                    <h4 style="color: rgb(131, 131, 131); font-weight: 400; margin-top: 20px;">T-Shirt</h4>
+                    <h4 style="color: rgb(131, 131, 131); font-weight: 400; margin-top: 20px;">Baju</h4>
                     <h3>Therashi Tee - Rp. 170.000</h3>
-                    <button>Buy Now!</button>
+                    <button>BELI SEKARANG</button>
                 </div>
 
                 <div class="column">
                     <img src="assets/img/product-3.jpg" width="100%" alt="">
-                    <h4 style="color: rgb(131, 131, 131); font-weight: 400; margin-top: 20px;">T-Shirt</h4>
+                    <h4 style="color: rgb(131, 131, 131); font-weight: 400; margin-top: 20px;">Baju</h4>
                     <h3>Gorilla Tee - Rp. 170.000</h3>
-                    <button>Buy Now!</button>
+                    <button>BELI SEKARANG</button>
                 </div>
 
                 <div class="column">
                     <img src="assets/img/product-2.jpg" width="100%" alt="">
-                    <h4 style="color: rgb(131, 131, 131); font-weight: 400; margin-top: 20px;">T-Shirt</h4>
+                    <h4 style="color: rgb(131, 131, 131); font-weight: 400; margin-top: 20px;">Baju</h4>
                     <h3>Blackpink Tee - Rp. 170.000</h3>
-                    <button>Buy Now!</button>
+                    <button>BELI SEKARANG</button>
+                </div>
+            </div>
+        </article>
+
+        <article id="popular">
+            <div class="row">
+                <div class="column">
+                    <h1>
+                        KOLABORASI
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="assets/img/collab-1.jpg" width="100%" alt="">
+                </div>
+                <div class="column">
+                    <img src="assets/img/collab-2.jpg" width="100%" alt="">
                 </div>
             </div>
         </article>
@@ -159,15 +185,87 @@
                         kini, Kamengski mungkin menjadi salah satu produk parodi yang paling dicari oleh masyarakat.
                     </p>
                     <button>
-                        OUR STORE
+                        TOKO KAMI
                     </button>
                 </div>
             </div>
         </article>
 
+        <article id="store">
+            <div class="row">
+                <div class="column">
+                    <h1 style="text-align: center; font-weight: 400;">
+                        Tersedia di toko online kesayangan anda
+                    </h1>
+                    <div class="image">
+                        <img src="assets/img/shopee-seeklogo.png" width="100%">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="profile">
+            <aside>
+                <div class="row">
+                    <div class="column">
+                        <h1>
+                            TENTANG DEVELOPER
+                        </h1>
+                        <p>
+                            <b>Gilang Chandra Syahputra</b>, atau yang biasa dipanggil <b>Gilang</b>, saat ini sedang
+                            menjalani kuliah semester 5 di <b>Universitas Pembangunan Nasional "Veteran" Jakarta</b>.
+                            Gilang lahir di <b>Bekasi</b>, pada tanggal <b>3 Mei 2001</b>. Gilang memiliki hobi
+                            <b>bermusik</b>
+                            dan <b>bermain game</b>. Gilang saat ini mengikuti
+                            program kampus merdeka dari kemendikbud. Gilang mengikuti <b>Studi Independen</b> di
+                            <b>Dicoding</b>.
+                        </p>
+                        <button>
+                            KONTAK
+                        </button>
+                    </div>
+                    <div class="column-2">
+                        <img src="assets/img/developer.jpeg" width="100%" alt="about">
+                    </div>
+                </div>
+            </aside>
+        </article>
     </main>
 
 
+    <footer id="footer">
+        <div class="row" style="border-bottom: 1px solid rgb(67, 67, 67);">
+            <div class="column">
+                <ul>
+                    <li><b>PRODUK</b></li>
+                    <li>Longshirt</li>
+                    <li>Sweater</li>
+                    <li>Baju</li>
+                    <li>Topi</li>
+                    <li>Tas</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li><b>BANTUAN</b></li>
+                    <li>CARA MENJADI MEMBER</li>
+                    <li>DAFTAR MELALUI EMAIL</li>
+                    <li>KIRIMKAN KAMI UMPAN BALIK</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li><b>TENTANG KAMENGSKI</b></li>
+                    <li>BERITA</li>
+                    <li>KARIR</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" style="text-align: center;">
+                © 2021 gilangcsy. All Rights Reserved
+            </div>
+        </div>
+    </footer>
 
     <script src="assets/js/navbar.js"></script>
 </body>
